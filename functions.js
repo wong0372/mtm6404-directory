@@ -18,10 +18,10 @@ const list = (clients) => {
 // compare values of the specified property
 // if a's property is less than b's property, a comes first
 // if a's property is bigger than b's property, b comes first, otherwise they are equal
-const order = (clients, prop) => {
+const order = (clients, property) => {
   return clients.slice().sort((a, b) => {
-    if (a[prop] < b[prop]) return -1;
-    if (a[prop] > b[prop]) return 1;
+    if (a[property] < b[property]) return -1;
+    if (a[property] > b[property]) return 1;
     return 0;
   });
 };
