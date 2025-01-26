@@ -27,7 +27,7 @@ const order = (clients, prop) => {
 };
 
 //3 total function, sum up the total
-// use reduce to iterate through all client and accumulate the balances
+// use reduce to go through all clients and add up their balances
 const total = (clients) => {
   return clients.reduce((sum, client) => sum + client.balance, 0);
 };
