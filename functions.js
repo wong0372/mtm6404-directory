@@ -14,8 +14,8 @@ const list = (clients) => {
 };
 
 //2 order function
-//create a copy of the original array using silce
-//compare values of the specified property
+// create a copy of the original array using silce
+// compare values of the specified property
 // if a's property is less than b's property, a comes first
 // if a's property is bigger than b's property, b comes first, otherwise they are equal
 const order = (clients, prop) => {
